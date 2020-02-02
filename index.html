@@ -13,23 +13,92 @@
         <div class="row justify-content-center">
             <h1>First Bootstrap Project</h1>
         </div>
-        <div class="row">
-            <div class="col bg-primary">First</div>
-            <div class="col bg-warning">Second</div>
-            <div class="col bg-success">Third</div>
+        <div class="row text-white">
+            <div class="col bg-primary text-left">First</div>
+            <div class="col bg-warning text-center">Second</div>
+            <div class="col bg-success text-right">Third</div>
         </div>
         <div class="row mt-3">
-            <form action="">
+            <form class="col-md-12  border border-primary p-3" action="">
+                <!-- Email and Password inputs -->
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email Address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
-                    <small id="emailHelp"  class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <small id="emailHelp"  class="form-text text-muted">You can trust me.</small>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Password</label>
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                   </div>
+                <!-- Check Boxes -->
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Cats</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                    <label class="form-check-label" for="exampleCheck2">Dogs</label>
+                </div>
+                <!-- Radio Check Boxes -->
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="exampleRadio" id="pick1" value="Option 1">
+                    <label class="form-check-label" for="pick1">Cheese Pizza</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="exampleRadio" id="pick2" value="Option 2">
+                    <label class="form-check-label" for="pick2">Hawaiian Pizza</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="exampleRadio" id="pick3" value="Option 3">
+                    <label class="form-check-label" for="pick3">Supreme Pizza</label>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Launch</button>
             </form>
+        </div>
+    <!-- Cards of friends -->
+        <div class="row p-4">
+            <!-- Friend 1 -->
+            <div class="card col-md-4">
+                <div class="card-body">
+                  <h5 class="card-title">Dan</h5>
+                  <p class="card-text">Boss man of Xpress Timing.</p>
+                </div>
+            </div>
+            <!-- Friend 2 -->
+            <div class="card col-md-4">
+                <div class="card-body">
+                  <h5 class="card-title">Pam</h5>
+                  <p class="card-text">Spouse to Dan, Mrs. Boss.</p>
+                </div>
+            </div>
+            <!-- Friend 3 -->
+            <div class="card col-md-4">
+                <div class="card-body">
+                  <h5 class="card-title">Phi</h5>
+                  <p class="card-text">Assistant Boss man. Asian.</p>
+                </div>
+            </div>
+            <!-- Friend 4 -->
+            <div class="card col-md-4">
+                <div class="card-body">
+                  <h5 class="card-title">Cade</h5>
+                  <p class="card-text">Head timer. Likes sports (i.e. racing, boxing, etc).</p>
+                </div>
+            </div>
+            <!-- Friend 5 -->
+            <div class="card col-md-4">
+                <div class="card-body">
+                  <h5 class="card-title">Megan</h5>
+                  <p class="card-text">Clerk manning the check-in table.</p>
+                </div>
+            </div>
+            <!-- Friend 6 -->
+            <div class="card col-md-4">
+                <div class="card-body">
+                  <h5 class="card-title">Steve</h5>
+                  <p class="card-text">Emcee for the meet today. </p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
